@@ -163,7 +163,7 @@ user function CODLJINC(cAliasEmit)
 					AND SA2.A2_COD BETWEEN %exp:cCdIniF% AND %exp:cCdFimF%
 				EndSql
 				M->A2_COD	:=	SOMA1((cAliasLast)->A2_COD)
-				M->A2_LOJA	:=	StrZero(1,TamSX3("A2_COD")[1])
+				M->A2_LOJA	:=	StrZero(1,TamSX3("A2_LOJA")[1])
 				(cAliasLast)->(dbCloseArea())
 
 				//Verifica se o codigo esta em uso

@@ -19,4 +19,4 @@ Tecnologia (http://tdn.totvs.com/display/tec/Home)
 -- DBAccess - Responsável pela integraço do Protheus (Appserver) com o banco de dados que esto homologados;
 (http://tdn.totvs.com/display/tec/DBAccess+-+Banco+de+dados)
 
-Framework - Responsável por desenvolver ferramentas com base na Tecnologia (binrios e banco) para agilizar o desenvolvimento do sistema Microsiga Protheus. (http://tdn.totvs.com/display/framework/Framework+Microsiga+Protheus)
+Framework - Responsável por desenvolver ferramentas com base na Tecnologia (binrios e banco de dados) para agilizar o desenvolvimento do sistema Microsiga Protheus. (http://tdn.totvs.com/display/framework/Framework+Microsiga+Protheus)

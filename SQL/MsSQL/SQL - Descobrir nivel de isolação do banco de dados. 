@@ -1,0 +1,5 @@
+DBCC USEROPTIONS
+
+
+-- exemplo 
+isolation level	read committed snapshot

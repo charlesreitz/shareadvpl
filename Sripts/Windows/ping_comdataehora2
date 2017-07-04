@@ -1,0 +1,14 @@
+#!/bin/bash
+#LOG=/Users/charlesreitz/Desktop/ping_log.log
+#NOW=$(date +%m/%Y %hh:%mm:%s)
+#IP=192.168.1.246
+#OUT=$(ping -c 1 $IP | grep packets)
+#echo "$NOW : $OUT" >>$LOG
+#!/bin/bash
+#ftpdatacenter.totvs.com.br
+
+Pat=/Users/charlesreitz/Desktop/ping_unifique.log
+while sleep 1
+do
+ printf '%s\n' "$(ping -c 1 unifique.com.br |sed -n 2p) $(date +%d/%m/%y_%H:%M:%S)" >> $Pat
+done
